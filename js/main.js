@@ -2,7 +2,7 @@
 
 let userName = prompt('what\'s your name');
 alert('welcome  '+ userName);
-
+console.log("please answer by yes or no")
 alert("please answer by yes or no");
 
 let userPlace = prompt('Did you live in Amman');
@@ -11,7 +11,7 @@ alert('Your delevary is free');
 else if(userPlace.toLocaleLowerCase()=='no')
  alert ('Your delevary is 3 JD');
 
- alert("please answer by yes or no");
+ console.log("please answer by yes or no");
 
  let gender = prompt('Are you Male');
 if(gender.toLowerCase() === 'yes'){
@@ -19,7 +19,7 @@ if(gender.toLowerCase() === 'yes'){
 }else if(gender.toLowerCase() === 'no'){
   alert('you got  50% discount!');
 
- alert("please answer by yes or no");
+  console.log("please answer by yes or no");
 
   let userAge = prompt('is your age between 18-28')
 if(userAge.toLocaleLowerCase()=='yes')
@@ -27,7 +27,7 @@ alert('Your next course is free');
 else if(userAge.toLocaleLowerCase()=='no')
  alert ('you have 50% discount in next course');
 
- alert("please answer by yes or no");
+ console.log("please answer by yes or no");
 
  let userNationalitye = prompt('are you jordanian')
  if(userNationalitye.toLocaleLowerCase()=='yes')
@@ -35,7 +35,7 @@ else if(userAge.toLocaleLowerCase()=='no')
  else if(ususerNationality.toLocaleLowerCase()=='no')
   alert ('you have 50% discount in bus fees');
 
-  alert("please answer by yes or no");
+  console.log("please answer by yes or no");
 
   let courseName =prompt('are you intrest in css')
   if(courseName.toLocaleLowerCase()=='yes')
