@@ -11,7 +11,7 @@ let gender = prompt('what\'s your gender');
 if(gender.toLowerCase() === 'female'){
   alert('Your course is free');
 }else if(age > 22){
-  alert('25 JD please');
+  alert('25JD please');
 }else if(age >= 18 && age < 22 ) {
   console.log('you got  50% discount!');
 }else {
