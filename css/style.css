@@ -1,0 +1,26 @@
+p {
+    color: rgb(134, 57, 206);
+  }
+  ol li {
+    color: rgb(76, 223, 32);
+  }
+  
+  #paraghraph {
+    text-align: center;
+  }
+  
+  .list-item {
+    background-color: rgb(100, 198, 237);
+    color: black;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  h1 {
+
+    color: rgb(165, 42, 128);
+    text-align:center;
+  }
