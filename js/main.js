@@ -6,82 +6,54 @@ console.log("please answer by yes or no")
 alert("please answer by yes or no");
 
 let userPlace = prompt('Did you live in Amman');
-<<<<<<< HEAD
 switch(userPlace.toLowerCase()){
 case ('yes'):
-alert('Your delevary is free');
-case ('y'):
-alert('Your delevary is free');
+  case ('y'):
+alert(' me to Your delevary is free');
 break;
 case('no'):
-alert ('Your delevary is 3 JD');
 case('n'):
-alert ('Your delevary is 3 JD');
+alert (' sorry i\'m not so Your delevary is 3 JD');
 break;
 default:
-  alert('IT\'S NOT WORKING')
+alert('IT\'S NOT WORKING')
 }
 
  console.log("please answer by yes or no");
 
- let gender = prompt('Are you Male');
-if(gender.toLowerCase() === 'yes' || 'Y'){
-=======
-switch (letter.toLowerCase()){
- case ('yes'):
-  alert('Your delevary is free');
- case ('y'):
-  alert('Your delevary is free');
-  break;
- case ('no'):
-   alert ('Your delevary is 3 JD');
- case ('n'):
-   alert ('Your delevary is 3 JD');
-}
- console.log("please answer by yes or no");
 
  let gender = prompt('Are you Male');
-if(gender.toLowerCase() === 'yes' || 'y'){
->>>>>>> e674942c970040e87a54fb6071275c232cc6c44f
-  alert('Your course is 25% discount!');
-}else if(gender.toLowerCase() === 'no' || 'n'){
-  alert('you got  50% discount!');
+if(gender.toLowerCase() === 'yes' || gender.toLowerCase() === 'y'){
+  alert('i\'m no so Your course is 25% discount!');
+}else if(gender.toLowerCase() === 'no' || gender.toLowerCase() === 'n'){
+  alert('me to so you got  50% discount!');
 
   console.log("please answer by yes or no");
 
   let userAge = prompt('is your age between 18-28')
-<<<<<<< HEAD
-if(userAge.toLocaleLowerCase()=='yes' || 'Y')
-=======
-if(userAge.toLocaleLowerCase()=='yes' || 'y')
->>>>>>> e674942c970040e87a54fb6071275c232cc6c44f
-alert('Your next course is free');
-else if(userAge.toLocaleLowerCase()=='no' || 'n')
- alert ('you have 50% discount in next course');
+if(userAge.toLowerCase()=='yes' ||userAge.toLowerCase()== 'Y')
+if(userAge.toLowerCase()=='yes' ||userAge.toLowerCase()== 'y')
+alert('me too guss what !!Your next course is free');
+else if(userAge.toLowerCase()=='no' ||userAge.toLowerCase()== 'n')
+ alert ('don\'t worry you will have 50% discount in next course');
 
  console.log("please answer by yes or no");
 
  let userNationalitye = prompt('are you jordanian')
-<<<<<<< HEAD
- if(userNationalitye.toLocaleLowerCase()=='yes' || 'Y')
-=======
- if(userNationalitye.toLocaleLowerCase()=='yes' || 'y')
->>>>>>> e674942c970040e87a54fb6071275c232cc6c44f
- alert('you have 30% discount in bus fees');
- else if(ususerNationality.toLocaleLowerCase()=='no' || 'n')
-  alert ('you have 50% discount in bus fees');
+ if(userNationalitye.toLowerCase()=='yes' || userNationalitye.toLowerCase()== 'Y')
+ if(userNationalitye.toLowerCase()=='yes' || 'y')
+ alert('ooh me to so you have 30% discount in bus fees');
+ else if(ususerNationality.toLowerCase()=='no' ||userNationalitye.toLowerCase()== 'n')
+  alert ('that whay you got  50% discount in bus fees');
 
   console.log("please answer by yes or no");
 
   let courseName =prompt('are you intrest in css')
-<<<<<<< HEAD
-  if(courseName.toLocaleLowerCase()=='yes' || 'Y')
-=======
-  if(courseName.toLocaleLowerCase()=='yes' || 'y')
->>>>>>> e674942c970040e87a54fb6071275c232cc6c44f
-  alert('Your css course is free');
-  else if(courseName.toLocaleLowerCase()=='no' || 'n')
-   alert ('you have 50% discount in anycourse');
+  if(courseName.toLowerCase()=='yes' || courseName.toLowerCase()=='Y')
+  if(courseName.toLowerCase()=='yes' ||courseName.toLowerCase()== 'y')
+  alert('me to so Your css course is free');
+  else if(courseName.toLowerCase()=='no' ||courseName.toLowerCase()== 'n')
+   alert ('don\'t worry you have 50% discount in anycourse');
 
 
 
