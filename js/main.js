@@ -25,7 +25,7 @@ alert('IT\'S NOT WORKING')
  let gender = prompt('Are you Male');
 if(gender.toLowerCase() === 'yes' || gender.toLowerCase() === 'y'){
   alert('i\'m no so Your course is 25% discount!');
-}else if(gender.toLowerCase() === 'no' || gender.toLowerCase() === 'n'){
+}else if(gender.toLowerCase() === 'no' || gender.toLowerCase() === 'n')
   alert('me to so you got  50% discount!');
 
   console.log("please answer by yes or no");
@@ -55,6 +55,44 @@ else if(userAge.toLowerCase()=='no' ||userAge.toLowerCase()== 'n')
   else if(courseName.toLowerCase()=='no' ||courseName.toLowerCase()== 'n')
    alert ('don\'t worry you have 50% discount in anycourse');
 
+   let attempts=4;
+   let myAge= prompt('now try to know my age');
+   while(attempts){
+    for (let i= 0;i<=attempts;i++){
+    if (myAge >= 18 && myAge<= 22 )
+     alert ('you are so close');
+     else if (myAge == '23')
+     alert ('grat correct answer !!!');
+    break;
+}
+attempts-=1;
 
+myAge= prompt('pleas try agin you have :' + attempts);
+   }
+if (!attempts){
+  alert('the correct answer was 23 ');
+}
+let visitList=['italy',' america','turkey','palestine','egypt','sirya'];
+console.log(visitList.length);
+console.log(visitList);
+let correct=false;
+let attempt=6;
+let userInput=prompt(' now we have another game try to guess the City');
+while(attempt){
+  for (let i= 0;i<visitList.length;i++){
+    if (userInput===visitList[i]){
+      alert('correct answer!');
+      break;
+    }
+    attempt-=1;
+    userInput=prompt('please try again you have : '+attempt+' remaining!');
+  }
+if (!attempt){
+  alert(visitList);
+  break;
+}
 
 }
+
+
+   

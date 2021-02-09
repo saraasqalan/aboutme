@@ -23,3 +23,12 @@
     color: rgb(165, 42, 128);
     text-align:center;
   }
+  .personal{
+    background-color: cornsilk;
+    color: darkturquoise;
+    text-align: center;
+  }
+ .movie {
+   background-color: gainsboro;
+   color: hotpink;
+  }
