@@ -58,16 +58,21 @@ if (courseName.toLowerCase() == 'yes' || courseName.toLowerCase() == 'Y')
 let attempts = 4;
 let myAge = prompt('now try to know my age');
 
-for (let i = 0; i <= attempts; i++) {
+for (let i = 0; i < attempts; i++) {
   if (myAge > 30) {
     alert('you are too high');
     attempts-=1;
 
     myAge = prompt('pleas try agin you have :' + attempts);
   }
-  else if (myAge<20){
+  else if (myAge<23){
     alert('you are too low');
     myAge = prompt('pleas try agin you have :' + attempts);
+  }
+  else if (myAge>23 && myAge<30){
+    alert('you are so close');
+    myAge = prompt('pleas try agin you have :' + attempts);
+
   }
   else if (myAge == '23') {
     alert('grat correct answer !!!');
@@ -83,7 +88,7 @@ let visitList = ['italy', ' america', 'turkey', 'palestine', 'egypt', 'sirya'];
 let attempt = 6;
 let userInput = prompt(' now we have another game try to guess the City');
 
-  for (let i = 0; i < visitList.length; i++) {
+  for (let i = 1; i < visitList.length; i++) {
     if (userInput === visitList[i]) {
       alert('correct answer!');
       break;
