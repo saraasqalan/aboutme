@@ -71,6 +71,7 @@ for (let i = 0; i < attempts; i++) {
   }
   else if (myAge>23 && myAge<30){
     alert('you are so close');
+    
     myAge = prompt('pleas try agin you have :' + attempts);
 
   }
@@ -79,8 +80,6 @@ for (let i = 0; i < attempts; i++) {
     break;
   }
 }
-
-
 if (!attempts) {
   alert('the correct answer was 23 ');
 }
@@ -100,7 +99,7 @@ let userInput = prompt(' now we have another game try to guess the City');
   if (!attempt) {
     alert(visitList);
   }
-
+ 
 
 
 
