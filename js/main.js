@@ -111,8 +111,10 @@ let userInput = prompt(' now we have another game try to guess the City');
   }}
   if (attempt=1) {
     alert('italy, america, turkey, palestine,egypt, sirya');
-  }
-  alert ('we are the samwe in '+ FinalScore +'  of 7');
+    
+  alert ('we are the same in '+ FinalScore +'  of 7');
   alert('hope to see you agin ' + userName + ' in my page');
+  }
+  
 
 
