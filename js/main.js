@@ -74,16 +74,16 @@ for (let i = 0; i < attempts; i++) {
   if (myAge > 30) {
     alert('you are too high');
     attempts-=1;
-
     myAge = prompt('pleas try agin you have :' + attempts);
   }
   else if (myAge<23){
     alert('you are too low');
+    attempts-=1;
     myAge = prompt('pleas try agin you have :' + attempts);
   }
   else if (myAge>23 && myAge<=30){
     alert('you are so close');
-    
+    attempts-=1;
     myAge = prompt('pleas try agin you have :' + attempts);
 
   }
