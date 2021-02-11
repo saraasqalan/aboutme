@@ -31,11 +31,11 @@ if (gender.toLowerCase() === 'yes' || gender.toLowerCase() === 'y') {
   alert('me to so you got  50% discount!');
 }
 
-function userAges(){
-  if (userAge.toLowerCase() == 'yes' || userAge.toLowerCase() == 'y'){
+function userAge (){
+  if (Age.toLowerCase() == 'yes' || Age.toLowerCase() == 'y'){
   finalScore ++ ;
     alert('me too guss what !!Your next course is free');}
-  else if (userAge.toLowerCase() == 'no' || userAge.toLowerCase() == 'n')
+  else if (Age.toLowerCase() == 'no' || Age.toLowerCase() == 'n')
     alert('don\'t worry you will have 50% discount in next course'); 
   }
   function userNationality() {
@@ -58,8 +58,8 @@ let userPlace = prompt('Did you live in Amman');
 userCity();
 let gender = prompt('Are you Male');
 userGender();
-let userAge = prompt('is your age between 18-28');
-userAges();
+let Age = prompt('is your age between 18-28');
+userAge();
 let userNationalitye = prompt('are you jordanian');
 userNationality();
 let courseName = prompt('are you intrest in css');
