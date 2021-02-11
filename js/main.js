@@ -31,7 +31,7 @@ if (gender.toLowerCase() === 'yes' || gender.toLowerCase() === 'y') {
   alert('me to so you got  50% discount!');
 }
 
-function userAge(){
+function userAges(){
   if (userAge.toLowerCase() == 'yes' || userAge.toLowerCase() == 'y'){
   finalScore ++ ;
     alert('me too guss what !!Your next course is free');}
@@ -59,9 +59,9 @@ userCity();
 let gender = prompt('Are you Male');
 userGender();
 let userAge = prompt('is your age between 18-28');
-userAge();
+userAges();
 let userNationalitye = prompt('are you jordanian');
-U=userNationality();
+userNationality();
 let courseName = prompt('are you intrest in css');
 cssIntrest();
 
@@ -81,7 +81,7 @@ for (let i = 0; i < attempts; i++) {
     alert('you are too low');
     myAge = prompt('pleas try agin you have :' + attempts);
   }
-  else if (myAge>23 && myAge<30){
+  else if (myAge>23 && myAge<=30){
     alert('you are so close');
     
     myAge = prompt('pleas try agin you have :' + attempts);
